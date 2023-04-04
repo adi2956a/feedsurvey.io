@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POST</title>
+  </head>
+  <body>
+    <form action="/root/JS/post.js">
+      <div>
+        <labela for="user_id">enter your id </labela>
+        <input
+          type="text"
+          name=" user_id"
+          required
+          placeholder="enter your ID"
+          size="45"
+         
+           />
+      </div>
+      <br />
+      <div>
+        <labela for="request">request </labela>
+
+        <input type="text" placeholder="subject">
+
+        <textarea
+          name="request"
+          placeholder="write your request here.."
+          id=""
+          cols="30"
+          rows="10"></textarea>
+
+ <input type="text" placeholder="tag person">
+
+      </div>
+
+      <div>
+        <label for="time">Enter time berfore it solve </label>
+
+        <input type="datetime-local" id="" name="time" />
+      </div>
+      <div>
+        <label for="collage">Choose a collage</label>
+
+        <select name="collage" id="">
+          <option value="">--Please choose an option--</option>
+          <option value="first">first</option>
+          <option value="second">second</option>
+          <option value="third">third</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="course">Choose a cource</label>
+        <select name="course" id="">
+          <option value="">--Please choose an option--</option>
+          <option value="btech">btech</option>
+          <option value="farma">farma</option>
+          <option value="bse">bse</option>
+          <option value="mba">MBA</option>
+          <option value="llb">llb</option>
+          <option value="bcom">b com</option>
+        </select>
+      </div>
+<div>
+
+  <label for="year">Choose a year</label>
+
+  <select name="year" id="">
+    <option value="">--Please choose an option--</option>
+    <option value="first">first</option>
+    <option value="second">second</option>
+    <option value="third">third</option>
+    <option value="forth">forth</option>
+  </select>
+</div>
+  <div>
+    <label for="section"> enter your section</label>
+
+    <select name="section"  id="">
+      <option value="a">A</option>
+      <option value="b">B</option>
+      <option value="c">C</option>
+      <option value="d">D</option>
+    </select>
+  </div>
+
+ <input type="submit" placeholder="submit feedback">  
+ <input type="reset" name="" id=""placeholder="reset"> 
+
+</form>
+  </body>
+</html>
